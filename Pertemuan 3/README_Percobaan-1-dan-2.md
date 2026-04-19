@@ -10,10 +10,12 @@ Pertanyaan percobaan 3B:
 3.	berlawanan dengan ekspektasi meski LCD tetap berfungsi.
 3.	Modifikasi menggabungkan UART dan I2C dilakukan dengan menambahkan Serial.print() pada setiap iterasi loop() untuk menampilkan nilai ADC, tegangan (nilai/1023.0 * 5.0 V), dan persentase (nilai/1023.0 * 100 %) ke Serial Monitor. LCD tetap menampilkan bar seperti sebelumnya. Kedua protokol berjalan bersamaan tanpa konflik karena beroperasi pada jalur hardware yang berbeda.
 4.	Tabel pengamatan nilai ADC pada Serial Monitor:
-| ADC | Volt (V) | Persen (%) |
-|-----|---------|-----------|
-| 16  | 0.00    | 1%        |
-| 21  | 0.10    | 2%        |
-| 49  | 0.24    | 4%        |
-| 74  | 0.36    | 7%        |
-| 96  | 0.47    | 9%        |
+Konversi Nilai ADC
+
+| Nilai ADC | Tegangan (V) | Persentase (%) |
+|----------|-------------|----------------|
+| 16       | 0.00        | 1%             |
+| 21       | 0.10        | 2%             |
+| 49       | 0.24        | 4%             |
+| 74       | 0.36        | 7%             |
+| 96       | 0.47        | 9%             |
